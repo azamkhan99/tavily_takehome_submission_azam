@@ -4,6 +4,8 @@
 
 **Session logs:** [session_logs.txt](session_logs.txt)
 
+**OCR Extraction does take a while !!!**
+
 Tavily-powered **adaptive** public-domain / adverse-media investigation for co-working / serviced-office tenant KYC onboarding for a Commercial Real Estate firm.
 
 This is a LangGraph workflow that plans focused search queries, gathers structured evidence via the **Tavily Search API**, runs a deterministic **Client Risk Assessment (CRA)**, and produces an **Enhanced Due Diligence** report with a citations appendix. Advisory only (`Proceed` | `Review` | `Escalate`).
@@ -40,9 +42,7 @@ cp .env.example .env
 
 ```bash
 uv run kyc-investigate
-# or: uv run python -m kyc_agent
-# Investigation events log to stderr:
-# uv run kyc-investigate --log-level DEBUG
+# or: uv run kyc-investigate --log-level DEBUG
 ```
 
 Open [http://127.0.0.1:7860](http://127.0.0.1:7860). Upload onboarding files — the investigation starts automatically. Progress streams in the step panel; **the same events also print in your terminal**. Results appear in the tabs below. Completed runs save artifacts under `artifacts/runs/`.
