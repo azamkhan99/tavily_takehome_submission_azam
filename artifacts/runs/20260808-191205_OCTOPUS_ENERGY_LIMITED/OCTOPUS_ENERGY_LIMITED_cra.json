@@ -1,0 +1,103 @@
+{
+  "client_name": "OCTOPUS ENERGY LIMITED",
+  "elements": {
+    "country_geography": {
+      "client_country": {
+        "risk_rating": "High",
+        "score": 10.0,
+        "selection": "Unknown / Not verified",
+        "weight": 0.1
+      },
+      "ubo_country": {
+        "risk_rating": "High",
+        "score": 10.0,
+        "selection": "Unknown / Not verified",
+        "weight": 0.1
+      },
+      "weight": 0.2
+    },
+    "customer_risk": {
+      "business_activity": {
+        "risk_rating": "Medium",
+        "score": 5.0,
+        "selection": "Others",
+        "weight": 0.1
+      },
+      "complex_ownership": {
+        "risk_rating": "High",
+        "score": 10.0,
+        "selection": "Complex Ownership Structure - Yes",
+        "weight": 0.05
+      },
+      "type_of_client": {
+        "risk_rating": "Medium",
+        "score": 7.0,
+        "selection": "Legal entity - Unregulated",
+        "weight": 0.05
+      },
+      "weight": 0.2
+    },
+    "delivery_channel": {
+      "onboarding_channel": {
+        "risk_rating": "Medium",
+        "score": 5.0,
+        "selection": "Non face-to-face using electronic means",
+        "weight": 0.05
+      },
+      "weight": 0.05
+    },
+    "other_risks": {
+      "pep_status": {
+        "risk_rating": "Low",
+        "score": 2.5,
+        "selection": "Non-PEP",
+        "weight": 0.05
+      },
+      "screening_results": {
+        "risk_rating": "Unacceptable",
+        "score": 10.0,
+        "selection": "Confirmed match with adverse media coverage (whereby media coverage is stating facts correctly)",
+        "weight": 0.2,
+        "unacceptable": true
+      },
+      "weight": 0.25
+    },
+    "product_service": {
+      "estimated_net_wealth": {
+        "risk_rating": "High",
+        "score": 10.0,
+        "selection": "Unknown / Not verified",
+        "weight": 0.1
+      },
+      "products_services": {
+        "risk_rating": "Medium",
+        "score": 5.0,
+        "selection": "Others",
+        "weight": 0.05
+      },
+      "source_of_funds": {
+        "risk_rating": "Medium",
+        "score": 5.0,
+        "selection": "Business income (refer business activity risk rating)",
+        "weight": 0.1
+      },
+      "transaction_delivery_channel": {
+        "risk_rating": "Medium",
+        "score": 5.0,
+        "selection": "Foreign bank account",
+        "weight": 0.05
+      },
+      "weight": 0.3
+    }
+  },
+  "matrix_version": "2025-01-01",
+  "overrides": {
+    "notes": "No sanctions override applied (WorldCheck / sanctions provider out of scope for this demo).",
+    "sanctions_other_lists": false,
+    "sanctions_unsc_uae_ofac": false
+  },
+  "weighted_score": 7.72,
+  "risk_level": "High",
+  "unacceptable": true,
+  "rationale": "Deterministic CRA mapping from Cross Verification, public-domain Research resolution, and file extractions using CRA Scoring Matrix lookup tables."
+}

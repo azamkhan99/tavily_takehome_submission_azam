@@ -23,5 +23,3 @@ __pycache__/
 # OS
 .DS_Store
 
-# Investigation run artifacts (local cache)
-artifacts/runs/

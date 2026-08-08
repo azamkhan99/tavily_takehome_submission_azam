@@ -1,0 +1,10 @@
+{
+  "pack_id": "upload",
+  "recommendation": "Escalate",
+  "recommendation_rationale": "CRA produced Unacceptable / sanctions override \u2014 Enhanced Due Diligence required.",
+  "ubo_status": "inferred",
+  "artifact_dir": "/Users/azamkhan/2606_Tavily_FDE_TakeHomeAssignment_v2/artifacts/runs/20260808-191205_OCTOPUS_ENERGY_LIMITED",
+  "pdf": "/Users/azamkhan/2606_Tavily_FDE_TakeHomeAssignment_v2/artifacts/runs/20260808-191205_OCTOPUS_ENERGY_LIMITED/OCTOPUS_ENERGY_LIMITED_edd_report.pdf",
+  "extraction_json": "/Users/azamkhan/2606_Tavily_FDE_TakeHomeAssignment_v2/artifacts/runs/20260808-191205_OCTOPUS_ENERGY_LIMITED/OCTOPUS_ENERGY_LIMITED_extraction.json",
+  "cra_json": "/Users/azamkhan/2606_Tavily_FDE_TakeHomeAssignment_v2/artifacts/runs/20260808-191205_OCTOPUS_ENERGY_LIMITED/OCTOPUS_ENERGY_LIMITED_cra.json"
+}
