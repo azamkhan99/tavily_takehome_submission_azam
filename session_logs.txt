@@ -1,0 +1,215 @@
+15:22:13 INFO [kyc_agent]   load_documents: Reading `01_certificate_of_incorporation.pdf`…
+15:22:13 INFO [kyc_agent] No text layer in 01_certificate_of_incorporation.pdf — running vision OCR on 9 page(s)
+15:22:16 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:19 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:25 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:27 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:29 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:34 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:36 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:38 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:42 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:42 INFO [kyc_agent]   load_documents: **Certificate of Incorporation** (`01_certificate_of_incorporation.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <p>File Copy</p>     <p>CERTIFICATE OF INCORPORATION OF A PRIVATE LIMITED COMPANY</p>     <p>Company Number 9263
+15:22:42 INFO [kyc_agent]   load_documents: Reading `02_confirmation_statement.pdf`…
+15:22:42 INFO [kyc_agent]   load_documents: **02 Confirmation Statement** (`02_confirmation_statement.pdf`)  [PDF page 1] CS01(ef)  Confirmation Statement   Company Name: OCTOPUS ENERGY LIMITED Company Number: 09263424 Received for filing in Electronic Format on the: 15/05/2026 XF23U
+15:22:42 INFO [kyc_agent]   load_documents: Reading `03_certificate_of_name_change_from_mercury.pdf`…
+15:22:42 INFO [kyc_agent] No text layer in 03_certificate_of_name_change_from_mercury.pdf — running vision OCR on 3 page(s)
+15:22:45 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:49 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:53 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:22:53 INFO [kyc_agent]   load_documents: **Certificate of Incorporation** (`03_certificate_of_name_change_from_mercury.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <h1>FILE COPY</h1>     <h2>CERTIFICATE OF INCORPORATION ON CHANGE OF NAME</h2>     <p>Company Number 
+15:22:53 INFO [kyc_agent]   load_documents: Reading `05_ubo_psc_change_group_details.pdf`…
+15:22:53 INFO [kyc_agent] No text layer in 05_ubo_psc_change_group_details.pdf — running vision OCR on 2 page(s)
+15:22:57 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:00 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:00 INFO [kyc_agent]   load_documents: **Shareholding Structure** (`05_ubo_psc_change_group_details.pdf`)  [PDF page 1 — vision OCR] <think> So, let's start by extracting all the information from the image. First, the header: Companies House, PSC05(ef). Then the title "Change of
+15:23:00 INFO [kyc_agent]   load_documents: Reading `05b_group_psc_notification_topco.pdf`…
+15:23:00 INFO [kyc_agent] No text layer in 05b_group_psc_notification_topco.pdf — running vision OCR on 2 page(s)
+15:23:04 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:05 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:05 INFO [kyc_agent]   load_documents: **Shareholding Structure** (`05b_group_psc_notification_topco.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <h1>Companies House PSC02<sup>(ef)</sup></h1>     <h2>Notice of Relevant Legal Entity (RLE) Person With Significant C
+15:23:05 INFO [kyc_agent]   load_documents: Reading `05c_group_psc_cessation_holdco.pdf`…
+15:23:05 INFO [kyc_agent] No text layer in 05c_group_psc_cessation_holdco.pdf — running vision OCR on 1 page(s)
+15:23:08 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:08 INFO [kyc_agent]   load_documents: **Shareholding Structure** (`05c_group_psc_cessation_holdco.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <h1>Companies House PSC07 (ef)</h1>     <p>Notice of ceasing to be a person with significant control (PSC)</p>     <p>C
+15:23:08 INFO [kyc_agent]   load_documents: Reading `05d_group_name_change_certificate.pdf`…
+15:23:08 INFO [kyc_agent] No text layer in 05d_group_name_change_certificate.pdf — running vision OCR on 2 page(s)
+15:23:11 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:16 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:16 INFO [kyc_agent]   load_documents: **Certificate of Incorporation** (`05d_group_name_change_certificate.pdf`)  [PDF page 1 — vision OCR] <think>  <think> Company Number: 09718624  THE COMPANIES ACT 2006 COMPANY LIMITED BY SHARES RECORD OF WRITTEN RESOLUTION OF OCTOPUS ENERGY
+15:23:16 INFO [kyc_agent]   load_documents: Reading `05e_holdco_confirmation_statement.pdf`…
+15:23:16 INFO [kyc_agent]   load_documents: **05E Holdco Confirmation Statement** (`05e_holdco_confirmation_statement.pdf`)  [PDF page 1] CS01(ef)  Confirmation Statement   Company Name: Octopus Energy Holdco Limited Company Number: 09718990 Received for filing in Electronic Format o
+15:23:16 INFO [kyc_agent]   load_documents: Reading `06_director_appointment_greg_jackson.pdf`…
+15:23:16 INFO [kyc_agent] No text layer in 06_director_appointment_greg_jackson.pdf — running vision OCR on 2 page(s)
+15:23:18 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:21 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:21 INFO [kyc_agent]   load_documents: **06 Director Appointment Greg Jackson** (`06_director_appointment_greg_jackson.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <h1>Companies House AP01 (ef)</h1>     <h2>Appointment of Director</h2>     <p>Company Name: Octopu
+15:23:21 INFO [kyc_agent]   load_documents: Reading `06b_director_appointment_stuart_jackson.pdf`…
+15:23:21 INFO [kyc_agent] No text layer in 06b_director_appointment_stuart_jackson.pdf — running vision OCR on 2 page(s)
+15:23:24 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:27 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:27 INFO [kyc_agent]   load_documents: **06B Director Appointment Stuart Jackson** (`06b_director_appointment_stuart_jackson.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <h1>Companies House AP01 (ef)</h1>     <h2>Appointment of Director</h2>     <p>Company Name: 
+15:23:27 INFO [kyc_agent]   load_documents: Reading `06c_director_appointment_simon_rogerson.pdf`…
+15:23:27 INFO [kyc_agent] No text layer in 06c_director_appointment_simon_rogerson.pdf — running vision OCR on 2 page(s)
+15:23:29 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:33 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:33 INFO [kyc_agent]   load_documents: **06C Director Appointment Simon Rogerson** (`06c_director_appointment_simon_rogerson.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <h1>Companies House AP01 (ef)</h1>     <h2>Appointment of Director</h2>     <p>Company Name: 
+15:23:33 INFO [kyc_agent]   load_documents: Reading `06d_director_appointment_christopher_hulatt.pdf`…
+15:23:33 INFO [kyc_agent] No text layer in 06d_director_appointment_christopher_hulatt.pdf — running vision OCR on 2 page(s)
+15:23:36 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:39 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:39 INFO [kyc_agent]   load_documents: **06D Director Appointment Christopher Hulatt** (`06d_director_appointment_christopher_hulatt.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <h1>Companies House AP01 (ef)</h1>     <h2>Appointment of Director</h2>     <p>Compan
+15:23:39 INFO [kyc_agent]   load_documents: Reading `07_full_accounts_2025.pdf`…
+15:23:43 INFO [kyc_agent] No text layer in 07_full_accounts_2025.pdf — running vision OCR on 49 page(s)
+15:23:44 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:49 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:23:59 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:24:11 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:24:21 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:24:27 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:24:40 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:24:46 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:24:55 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:25:09 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:25:15 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:25:31 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:25:35 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:25:44 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:25:50 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:25:56 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:05 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:17 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:21 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:29 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:40 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:46 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:52 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:26:57 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:27:06 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:27:18 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:27:22 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:27:31 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:27:40 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:27:52 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:28:03 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:28:15 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:28:26 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:28:31 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:28:46 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:28:59 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:29:08 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:29:15 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:29:27 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:29:39 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:29:53 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:30:09 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:30:15 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:30:33 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:30:46 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:30:59 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:05 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:21 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:24 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:24 INFO [kyc_agent]   load_documents: **07 Full Accounts 2025** (`07_full_accounts_2025.pdf`)  [PDF page 1 — vision OCR] ```html <html>   <body>     <p>Company number: 09263424</p>     <p>Octopus Energy Limited</p>     <p>Annual Report and Financial Statements 2025</p>     <p>F
+15:31:24 INFO [kyc_agent]   extract_documents: Extracting 13 document(s) in parallel…
+15:31:27 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:27 INFO [kyc_agent]   extract_documents: Finished `05E Holdco Confirmation Statement`  No shareholders, directors, or ownership percentages are listed on the document. The confirmation statement confirms the company's intended future activities are lawful and that information has 
+15:31:28 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:28 INFO [kyc_agent]   extract_documents: Finished `Certificate of Incorporation`  The document confirms a name change from MERCURY ENERGY SUPPLY LIMITED to OCTOPUS ENERGY LIMITED on 21/08/2015. No ownership details, directors, or shareholders are listed. The company is incorporate
+15:31:28 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:28 INFO [kyc_agent]   extract_documents: Finished `02 Confirmation Statement`  The document lists only one shareholder, OCTOPUS ENERGY GROUP LIMITED, holding 3 ordinary shares. No ownership percentage is stated. No directors or other persons are listed. The confirmation statement 
+15:31:28 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:28 INFO [kyc_agent]   extract_documents: Finished `Certificate of Incorporation`  This document is a Certificate of Incorporation on Change of Name issued under the Companies Act 2006. It confirms the name change from OCTOPUS ENERGY HOLDINGS LIMITED to OCTOPUS ENERGY GROUP LIMITED
+15:31:28 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:28 INFO [kyc_agent]   extract_documents: Finished `Shareholding Structure`  This document is a notice of ceasing to be a person with significant control (PSC). The entity 'OCTOPUS ENERGY HOLDCO LIMITED' is listed as a former PSC of OCTOPUS ENERGY GROUP LIMITED. No ownership percen
+15:31:30 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:30 INFO [kyc_agent]   extract_documents: Finished `Shareholding Structure`  No shareholders, directors, or corporate owners are explicitly named in the document. The controlling entity is described only by its level of control (75%+ shares, voting rights, and director appointment 
+15:31:30 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:30 INFO [kyc_agent]   extract_documents: Finished `Shareholding Structure`  The document confirms that OCTOPUS ENERGY TOPCO LIMITED holds 75% or more of shares, voting rights, and board appointment rights in OCTOPUS ENERGY GROUP LIMITED. No individual persons with significant cont
+15:31:31 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:31 INFO [kyc_agent]   extract_documents: Finished `06 Director Appointment Greg Jackson`  No ownership percentages or shareholder information is present. The document only confirms the appointment of Greg Sean Jackson as a director. The 'Authorisation' page (page 2) confirms the f
+15:31:32 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:32 INFO [kyc_agent]   extract_documents: Finished `06B Director Appointment Stuart Jackson`  No ownership percentages or shareholder information present. No corporate shareholders listed. The document confirms director consent but does not disclose ownership structure. The authori
+15:31:32 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:32 INFO [kyc_agent]   extract_documents: Finished `06C Director Appointment Simon Rogerson`  No ownership details, shareholder information, or corporate shareholders are present in the document. The appointment of Simon Andrew Rogerson as director is confirmed with consent. The do
+15:31:32 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:32 INFO [kyc_agent]   extract_documents: Finished `06D Director Appointment Christopher Hulatt`  No ownership percentages or shareholder information is present on the document. The appointment of Christopher Robert Hulatt as director is confirmed with consent. The document does no
+15:31:32 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:32 INFO [kyc_agent]   extract_documents: Finished `Certificate of Incorporation`  All data extracted directly from the provided document. The sole shareholder, UTILISOFT LIMITED, is a corporate entity with no disclosed ultimate beneficial owner. The company has one share issued, f
+15:31:34 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:31:34 INFO [kyc_agent]   extract_documents: Finished `07 Full Accounts 2025`  All extracted entities, roles, and ownership signals are based solely on visible text in the provided document. No external knowledge or inference was used. Ownership percentages are absent. The parent enti
+15:31:34 INFO [kyc_agent]   cross_verify: Reconciling **13** per-document extraction(s)…
+15:31:34 INFO [kyc_agent]   cross_verify: **`Certificate of Incorporation`** (certificate_of_incorporation) - Jurisdiction: England and Wales - Persons (3): MR STEVEN PAUL GOSLING, MR MATTHEW CHRISTOPHER HIRST, MR STEVEN PAUL GOSLING - Corporate shareholders: {'name': 'UTILISOFT LI
+15:31:34 INFO [kyc_agent]   cross_verify: **`02 Confirmation Statement`** (02_confirmation_statement) - Corporate shareholders: {'name': 'OCTOPUS ENERGY GROUP LIMITED', 'role': 'shareholder', 'percentage': None, 'shares': '3 ORDINARY'} - Ownership gaps: 1 flagged - Notes: The docum
+15:31:34 INFO [kyc_agent]   cross_verify: **`Certificate of Incorporation`** (certificate_of_incorporation) - Registration: 09263424 - Ownership gaps: 1 flagged - Notes: The document confirms a name change from MERCURY ENERGY SUPPLY LIMITED to OCTOPUS ENERGY LIMITED on 21/08/2015. 
+15:31:34 INFO [kyc_agent]   cross_verify: **`Shareholding Structure`** (group_structure_chart) - Ownership gaps: 2 flagged - Inconsistency flags: 2 - Notes: No shareholders, directors, or corporate owners are explicitly named in the document. The controlling entity is described onl
+15:31:34 INFO [kyc_agent]   cross_verify: **`Shareholding Structure`** (group_structure_chart) - Corporate shareholders: {'name': 'OCTOPUS ENERGY TOPCO LIMITED', 'registration_number': '16982052', 'legal_form': 'PRIVATE LIMITED COMPANY', 'governing_law': 'COMPANIES ACT 2006', 'coun
+15:31:34 INFO [kyc_agent]   cross_verify: **`Shareholding Structure`** (group_structure_chart) - Corporate shareholders: {'name': 'OCTOPUS ENERGY HOLDCO LIMITED', 'role': 'PSC (ceased)', 'percentage': None} - Ownership gaps: 1 flagged - Notes: This document is a notice of ceasing t
+15:31:34 INFO [kyc_agent]   cross_verify: **`Certificate of Incorporation`** (certificate_of_incorporation) - Ownership gaps: 2 flagged - Notes: This document is a Certificate of Incorporation on Change of Name issued under the Companies Act 2006. It confirms the name change from O
+15:31:34 INFO [kyc_agent]   cross_verify: **`05E Holdco Confirmation Statement`** (05e_holdco_confirmation_statement) - Ownership gaps: 1 flagged - Notes: No shareholders, directors, or ownership percentages are listed on the document. The confirmation statement confirms the compan
+15:31:34 INFO [kyc_agent]   cross_verify: **`06 Director Appointment Greg Jackson`** (06_director_appointment_greg_jackson) - Persons (1): GREG SEAN JACKSON - Ownership gaps: 1 flagged - Notes: No ownership percentages or shareholder information is present. The document only confir
+15:31:34 INFO [kyc_agent]   cross_verify: **`06B Director Appointment Stuart Jackson`** (06b_director_appointment_stuart_jackson) - Persons (1): STUART KEITH JACKSON - Ownership gaps: 1 flagged - Inconsistency flags: 1 - Notes: No ownership percentages or shareholder information pr
+15:31:34 INFO [kyc_agent]   cross_verify: **`06C Director Appointment Simon Rogerson`** (06c_director_appointment_simon_rogerson) - Persons (1): SIMON ANDREW ROGERSON - Ownership gaps: 2 flagged - Notes: No ownership details, shareholder information, or corporate shareholders are p
+15:31:34 INFO [kyc_agent]   cross_verify: **`06D Director Appointment Christopher Hulatt`** (06d_director_appointment_christopher_hulatt) - Persons (1): CHRISTOPHER ROBERT HULATT - Notes: No ownership percentages or shareholder information is present on the document. The appointmen
+15:31:34 INFO [kyc_agent]   cross_verify: **`07 Full Accounts 2025`** (07_full_accounts_2025) - Persons (1): Greg Jackson - Corporate shareholders: {'name': 'Octopus Energy Group Limited', 'percentage': None, 'ownership_type': 'parent', 'entity_type': 'corporate', 'source_document'
+15:31:34 INFO [kyc_agent]   cross_verify: Running LLM reconciliation across document extractions…
+15:31:48 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:32:01 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:32:01 WARNING [kyc_agent] Cross-verify structured reconciliation failed: ValidationError: 7 validation errors for ExtractionResult
+corporate_shareholders.0
+  Input should be a valid string [type=string_type, input_value={'name': 'UTILISOFT LIMIT...None, 'ubo_basis': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+corporate_shareholders.1
+  Input should be a valid string [type=string_type, input_value={'name': 'OCTOPUS ENERGY ...None, 'ubo_basis': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+corporate_shareholders.2
+  Input should be a valid string [type=string_type, input_value={'name': 'OCTOPUS ENERGY ...026', 'ubo_basis': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+corporate_shareholders.3
+  Input should be a valid string [type=string_type, input_value={'name': 'OCTOPUS ENERGY ...None, 'ubo_basis': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+corporate_shareholders.4
+  Input should be a valid string [type=string_type, input_value={'name': 'Octopus Energy ...None, 'ubo_basis': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+corporate_shareholders.5
+  Input should be a valid string [type=string_type, input_value={'name': 'Kraken Technolo...None, 'ubo_basis': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+corporate_shareholders.6
+  Input should be a valid string [type=string_type, input_value={'name': 'Octopus Energy ...None, 'ubo_basis': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+15:32:01 INFO [kyc_agent]   cross_verify: LLM reconciliation failed (ValidationError) — using fallback parser
+15:32:01 INFO [kyc_agent]   cross_verify: **Reconciled entity view** - **Legal name:** OCTOPUS ENERGY LIMITED - **Persons:** 0 - **Corporate shareholders:** 0 - **Ownership gaps:** 0 - **Inconsistency flags:** 0  Fallback extractor used (structured LLM reconciliation failed)
+15:32:02 INFO [kyc_agent]   resolve_entities: Normalizing company and person aliases…
+15:32:02 INFO [kyc_agent]   resolve_entities: **Entity resolution** (deterministic alias normalization — no LLM)  - **Legal name:** OCTOPUS ENERGY LIMITED - **Normalized aliases:** OCTOPUS ENERGY - **Persons:** none extracted
+15:32:02 INFO [kyc_agent]   plan_investigation: Building public-domain objectives from document gaps…
+15:32:02 INFO [kyc_agent]   plan_investigation: **Cross-verify context**  From documents: legal name `OCTOPUS ENERGY LIMITED`; registration `09263424</p>` | Not established from documents: jurisdiction / country of incorporation; registered address; business activity / industry; trade li
+15:32:02 INFO [kyc_agent]   plan_investigation: **Gaps to fill via search**  - Documents did not yield jurisdiction / country of incorporation → search `OCTOPUS ENERGY LIMITED` for jurisdiction / country of incorporation - Documents did not yield registered address → search `OCTOPUS ENER
+15:32:02 INFO [kyc_agent]   plan_investigation: **Investigation plan** (deterministic planner — no LLM)  **Cross-verify context:** From documents: legal name `OCTOPUS ENERGY LIMITED`; registration `09263424</p>` | Not established from documents: jurisdiction / country of incorporation; r
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `"OCTOPUS ENERGY LIMITED" jurisdiction incorporation country registered`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `"OCTOPUS ENERGY LIMITED" registered office address headquarters`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `"OCTOPUS ENERGY LIMITED" business activity industry sector`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `"OCTOPUS ENERGY LIMITED" trade licence number commercial license UAE`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `"OCTOPUS ENERGY LIMITED" ultimate beneficial owner OR UBO OR shareholders register`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `"OCTOPUS ENERGY LIMITED" directors OR officers OR management team`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `OCTOPUS ENERGY LIMITED company profile Dubai`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `OCTOPUS ENERGY LIMITED litigation OR lawsuit OR court`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `OCTOPUS ENERGY LIMITED sanctions OR regulatory action OR fine`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `OCTOPUS ENERGY LIMITED fraud OR money laundering OR bribery OR corruption`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `OCTOPUS ENERGY LIMITED executive interview OR reputation OR review`
+15:32:02 INFO [kyc_agent]   run_searches: Searching: `OCTOPUS ENERGY LIMITED beneficial owners OR shareholders OR ultimate owner`
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: "OCTOPUS ENERGY LIMITED" jurisdiction incorporation country registered
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: "OCTOPUS ENERGY LIMITED" registered office address headquarters
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: "OCTOPUS ENERGY LIMITED" trade licence number commercial license UAE
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: "OCTOPUS ENERGY LIMITED" business activity industry sector
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: OCTOPUS ENERGY LIMITED litigation OR lawsuit OR court
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: OCTOPUS ENERGY LIMITED company profile Dubai
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: "OCTOPUS ENERGY LIMITED" ultimate beneficial owner OR UBO OR shareholders register
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: "OCTOPUS ENERGY LIMITED" directors OR officers OR management team
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: OCTOPUS ENERGY LIMITED executive interview OR reputation OR review
+15:32:02 INFO [kyc_agent]   run_searches: Tavily: OCTOPUS ENERGY LIMITED fraud OR money laundering OR bribery OR corruption
+15:32:05 INFO [kyc_agent]   run_searches: Tavily: OCTOPUS ENERGY LIMITED beneficial owners OR shareholders OR ultimate owner
+15:32:06 INFO [kyc_agent]   run_searches: Tavily: OCTOPUS ENERGY LIMITED sanctions OR regulatory action OR fine
+15:32:07 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:32:07 INFO [kyc_agent]   synthesize_report: Synthesizing EDD narrative from documents and public-domain research…
+15:32:25 INFO [httpx] HTTP Request: POST https://api.studio.nebius.ai/v1/chat/completions "HTTP/1.1 200 OK"
+15:32:25 INFO [kyc_agent]   synthesize_report: **Synthesis complete** — Findings identified; 3 investigation finding(s).

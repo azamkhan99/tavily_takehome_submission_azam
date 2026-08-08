@@ -1,0 +1,102 @@
+{
+  "company": "Graphcore Limited",
+  "company_number": "10185006",
+  "known_entities": [
+    {
+      "name": "Graphcore Limited",
+      "type": "company",
+      "relationship": "subject_company",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/10185006"
+      ]
+    },
+    {
+      "name": "SoftBank Group Corp.",
+      "type": "company",
+      "relationship": "psc_majority_owner",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/10185006/persons-with-significant-control",
+        "https://www.graphcore.ai/posts/graphcore-joins-softbank-group-to-build-next-generation-of-ai-compute"
+      ]
+    },
+    {
+      "name": "Ippei Mimura",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/10185006/officers"
+      ]
+    },
+    {
+      "name": "Jared Patrick Roscoe",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/10185006/officers"
+      ]
+    },
+    {
+      "name": "Marcus William McElroy",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/10185006/officers"
+      ]
+    },
+    {
+      "name": "Nigel Jurgen Toon",
+      "type": "person",
+      "relationship": "former_director_cofounder",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/10185006/officers",
+        "https://www.graphcore.ai/nigel-toon"
+      ]
+    },
+    {
+      "name": "Simon Christian Knowles",
+      "type": "person",
+      "relationship": "former_director_cofounder",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/10185006/officers",
+        "https://en.wikipedia.org/wiki/Graphcore"
+      ]
+    }
+  ],
+  "expected_research_areas": [
+    "company_identity",
+    "ownership",
+    "ubo",
+    "directors",
+    "adverse_media",
+    "litigation",
+    "regulatory"
+  ],
+  "useful_search_targets": [
+    {
+      "entity": "SoftBank Group Corp.",
+      "reason": "PSC/majority owner; corroborate acquisition and ongoing control"
+    },
+    {
+      "entity": "Graphcore Limited",
+      "reason": "Verify identity, offices, and corporate history"
+    },
+    {
+      "entity": "Nigel Toon",
+      "reason": "Founder/former director; public role changes around SoftBank ownership"
+    },
+    {
+      "entity": "Ippei Mimura",
+      "reason": "Current director associated with SoftBank-era board"
+    }
+  ],
+  "potential_entity_resolution_challenges": [
+    "SoftBank Group Corp. vs SoftBank Corp. / SoftBank Investment Advisers naming",
+    "Historical investor directors vs current SoftBank-appointed directors",
+    "News referring to Graphcore as SoftBank subsidiary before/after Companies House PSC notification dates"
+  ],
+  "potential_follow_up_triggers": [
+    "PSC SoftBank Group Corp. discovered → research parent entity and listed-company disclosures",
+    "Director termination of founder → corroborate leadership transition in open sources",
+    "Acquisition announcement dates vs PSC notified-on date → timeline reconciliation"
+  ]
+}

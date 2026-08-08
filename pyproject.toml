@@ -1,0 +1,38 @@
+[project]
+name = "2606-tavily-fde-takehomeassignment-v2"
+version = "0.1.0"
+description = "Tavily-powered KYC public-domain investigation agent for co-working tenant onboarding"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=5.0.0",
+    "langgraph>=1.0.0",
+    "langchain>=1.0.0",
+    "langchain-nebius>=0.1.0",
+    "langchain-core>=0.3.0",
+    "tavily-python>=0.5.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "pypdf>=5.0.0",
+    "pymupdf>=1.24.0",
+    "reportlab>=4.0.0",
+]
+
+[project.scripts]
+kyc-investigate = "kyc_agent.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["kyc_agent"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

@@ -1,0 +1,113 @@
+{
+  "company": "Starling Bank Limited",
+  "company_number": "09092149",
+  "known_entities": [
+    {
+      "name": "Starling Bank Limited",
+      "type": "company",
+      "relationship": "subject_company",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149",
+        "https://www.starlingbank.com/media/company-fact-sheet/"
+      ]
+    },
+    {
+      "name": "Possible FS Limited",
+      "type": "company",
+      "relationship": "former_legal_name",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149"
+      ]
+    },
+    {
+      "name": "Starling FS Limited",
+      "type": "company",
+      "relationship": "former_legal_name",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149"
+      ]
+    },
+    {
+      "name": "Starling Intermediate Holdings Limited",
+      "type": "company",
+      "relationship": "active_psc_parent",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149/persons-with-significant-control",
+        "https://find-and-update.company-information.service.gov.uk/company/16240204"
+      ]
+    },
+    {
+      "name": "Starling Group Holdings Limited",
+      "type": "company",
+      "relationship": "former_psc_parent",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149/persons-with-significant-control"
+      ]
+    },
+    {
+      "name": "Anne Elizabeth Boden",
+      "type": "person",
+      "relationship": "founder_former_director_former_psc",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149/officers",
+        "https://en.wikipedia.org/wiki/Starling_Bank"
+      ]
+    },
+    {
+      "name": "Raman Bhatia",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149/officers",
+        "https://www.starlingbank.com/about/board-of-directors/"
+      ]
+    },
+    {
+      "name": "Daniel Toby Olley",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09092149/officers"
+      ]
+    }
+  ],
+  "expected_research_areas": [
+    "company_identity",
+    "ownership",
+    "ubo",
+    "directors",
+    "adverse_media",
+    "litigation",
+    "regulatory"
+  ],
+  "useful_search_targets": [
+    {
+      "entity": "Starling Intermediate Holdings Limited",
+      "reason": "Active PSC; ownership chain incomplete without further UBO work"
+    },
+    {
+      "entity": "Starling Bank Limited FCA",
+      "reason": "Confirm regulatory permissions and any public supervisory notices"
+    },
+    {
+      "entity": "Anne Boden",
+      "reason": "Founder transition; historical PSC/director role"
+    },
+    {
+      "entity": "Possible FS Limited",
+      "reason": "Former legal name entity-resolution / historical search"
+    }
+  ],
+  "potential_entity_resolution_challenges": [
+    "Multiple former legal names",
+    "Starling brand vs Intermediate/Group Holdings entities",
+    "Common director names appearing in unrelated UK companies",
+    "Harald McPike-Zima name spelling variants in open sources"
+  ],
+  "potential_follow_up_triggers": [
+    "Corporate PSC discovered → research parent and request natural-person UBO documentation",
+    "Name-change certificates → search under former names",
+    "Regulated bank FRN → regulatory/adverse-media research track",
+    "Founder cessation filings → avoid treating founder as current UBO without evidence"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "company": "Octopus Energy Limited",
+  "company_number": "09263424",
+  "known_entities": [
+    {
+      "name": "Octopus Energy Limited",
+      "type": "company",
+      "relationship": "subject_company",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09263424"
+      ]
+    },
+    {
+      "name": "Mercury Energy Supply Limited",
+      "type": "company",
+      "relationship": "former_legal_name",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09263424"
+      ]
+    },
+    {
+      "name": "Octopus Energy Group Limited",
+      "type": "company",
+      "relationship": "psc_parent",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09263424/persons-with-significant-control",
+        "https://find-and-update.company-information.service.gov.uk/company/09718624"
+      ]
+    },
+    {
+      "name": "Octopus Energy Topco Limited",
+      "type": "company",
+      "relationship": "group_level_psc",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09718624/persons-with-significant-control"
+      ]
+    },
+    {
+      "name": "Octopus Energy Holdco Limited",
+      "type": "company",
+      "relationship": "related_holding_company",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09718990"
+      ]
+    },
+    {
+      "name": "Greg Sean Jackson",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09263424/officers",
+        "https://octopus.energy/press/meet-the-team"
+      ]
+    },
+    {
+      "name": "Stuart Keith Jackson",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09263424/officers"
+      ]
+    },
+    {
+      "name": "Simon Andrew Rogerson",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09263424/officers"
+      ]
+    },
+    {
+      "name": "Christopher Robert Hulatt",
+      "type": "person",
+      "relationship": "director",
+      "source_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/09263424/officers"
+      ]
+    }
+  ],
+  "expected_research_areas": [
+    "company_identity",
+    "ownership",
+    "ubo",
+    "directors",
+    "adverse_media",
+    "litigation",
+    "regulatory"
+  ],
+  "useful_search_targets": [
+    {
+      "entity": "Octopus Energy Group Limited",
+      "reason": "Immediate corporate PSC; continue ownership chain"
+    },
+    {
+      "entity": "Octopus Energy Topco Limited",
+      "reason": "Group-level PSC change; ownership graph update"
+    },
+    {
+      "entity": "Greg Jackson Octopus Energy",
+      "reason": "Public founder/CEO association; disambiguate from Stuart Keith Jackson"
+    },
+    {
+      "entity": "Mercury Energy Supply Limited",
+      "reason": "Former legal name"
+    }
+  ],
+  "potential_entity_resolution_challenges": [
+    "Greg Sean Jackson vs Stuart Keith Jackson (same surname, both directors)",
+    "Octopus Energy Limited vs Group vs Holdco vs Topco naming collision",
+    "Former Mercury Energy Supply Limited identity",
+    "Many 'Octopus' brand entities in open web results"
+  ],
+  "potential_follow_up_triggers": [
+    "Corporate PSC Group discovered → research Group/Topco/Holdco",
+    "Two Jackson directors extracted → force person disambiguation before adverse-media merge",
+    "Group PSC change filings → refresh ownership graph",
+    "Incomplete natural-person UBO → missing-document / follow-up research path"
+  ]
+}
