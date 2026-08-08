@@ -1,12 +1,12 @@
-# KYC Public-Domain Investigation
+# Tavily-Powered Automated KYC and Investigation Agent
 
 **Demo:** [Screen recording](https://cleanshot.com/share/b8lcmkGK)
 
 **Session logs:** [session_logs.txt](session_logs.txt)
 
-Tavily-powered **adaptive** public-domain / adverse-media investigation for co-working / serviced-office tenant KYC onboarding.
+Tavily-powered **adaptive** public-domain / adverse-media investigation for co-working / serviced-office tenant KYC onboarding for a Commercial Real Estate firm.
 
-This is **not** a chatbot. It is a LangGraph workflow that plans focused search queries, gathers structured evidence via the **Tavily Search API**, runs a deterministic **Client Risk Assessment (CRA)**, and produces an **Enhanced Due Diligence** report with a citations appendix. Advisory only (`Proceed` | `Review` | `Escalate`).
+This is a LangGraph workflow that plans focused search queries, gathers structured evidence via the **Tavily Search API**, runs a deterministic **Client Risk Assessment (CRA)**, and produces an **Enhanced Due Diligence** report with a citations appendix. Advisory only (`Proceed` | `Review` | `Escalate`).
 
 ## What it does
 
@@ -16,9 +16,8 @@ This is **not** a chatbot. It is a LangGraph workflow that plans focused search 
 - Parallel Tavily Search (public-domain)
 - Adverse hit resolution
 - CRA matrix scoring + EDD PDF report
-- Gradio analyst UI
 
-Sanctions screening and CRA tooling can remain separate systems. This app improves the **manual web investigation** slice.
+This app improves the **manual web investigation** slice.
 
 ## Setup
 
