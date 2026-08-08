@@ -6,6 +6,20 @@
 
 **OCR Extraction does take a while !!!**
 
+## Screenshots
+
+![Run list and investigation steps](1.png)
+
+*Upload documents, stream investigation steps, and review completed runs in the sidebar.*
+
+![Evidence tab with Tavily search results](2.png)
+
+*Evidence tab showing Tavily search queries, sources, and corroborated public-domain findings.*
+
+![EDD report PDF preview](3.png)
+
+*Generated Enhanced Due Diligence PDF report with recommendation and client particulars.*
+
 Tavily-powered **adaptive** public-domain / adverse-media investigation for co-working / serviced-office tenant KYC onboarding for a Commercial Real Estate firm.
 
 This is a LangGraph workflow that plans focused search queries, gathers structured evidence via the **Tavily Search API**, runs a deterministic **Client Risk Assessment (CRA)**, and produces an **Enhanced Due Diligence** report with a citations appendix. Advisory only (`Proceed` | `Review` | `Escalate`).
